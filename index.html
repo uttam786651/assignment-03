@@ -23,14 +23,74 @@
           }
         }
       </script>
+      <!-- DaisyUI cdn -->
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <style>
+        .font-manrope{
+            font-family: "Manrope", sans-serif;
+           
+            }
+      </style>
 </head>
-<body>
-    <header>
+<body class="font-manrope">
+    <!-- Header Section -->
+    <header class="bg-gradient-to-b from-neutral-100 to-white h-[900px]">
+    <!-- Navbar Section -->
+     <nav class="lg:container mx-auto ">
+       <div class="navbar">
+        <div class="navbar-start ">
 
+          <a class="btn btn-ghost text-[28px] md:text-[32px] font-extrabold"><i class="fa-solid fa-arrow-right -rotate-45 text-[1C1C1C] text-sm w-7 h-7 bg-[#ABEF5F] rounded-full  flex justify-center items-center  	"></i> Rinterio</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 text-base text-[#737373]">
+            <li class="hover:font-extrabold text-[#494949]"><a>Home</a></li>
+            <li class="hover:font-extrabold text-[#494949]""><a>Services</a></li>
+            <li class="hover:font-extrabold text-[#494949]""><a>Portfolio</a></li>
+            <li class="hover:font-extrabold text-[#494949]""><a>Blogs</a></li>
+            <li class="hover:font-extrabold text-[#494949]""><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end  ">
+          <i class="fa-solid fa-magnifying-glass mr-3 text-neutral-500 h-7 w-7 bg-white text-center rounded-full flex justify-center items-center"></i>
+          <i class="fa-solid fa-cart-shopping mr-3 text-neutral-500 h-7 w-7 bg-white text-center rounded-full flex justify-center items-center"></i>
+          <a class=" bg-[#ABEF5F] px-5 py-3 rounded-full font-extrabold text-[#1C1C1C] text-sm lg:text-xl  " href="#"> Book Consult 
+            <i class="fa-solid fa-arrow-right -rotate-45 text-white text-sm w-5 bg-[#1C1C1C] rounded-full  text-center  	"></i></a>
+        </div>
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-[#737373]">
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     </header>
+    <!-- Main Section -->
     <main>
 
     </main>
+    <!-- Footer Section -->
     <footer>
 
     </footer>
